@@ -1,0 +1,54 @@
+.blurb {
+  width: 50%;
+  padding-top: 5rem;
+  margin: auto;
+  color: #4a4947;
+  text-align: center;
+}
+.home-h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.home-h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.card-section-1,
+.card-section-2 {
+  margin: 5rem 0;
+  color: #4a4947;
+  text-align: center;
+}
+
+.images img {
+  width: 40%;
+  padding: 1rem;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.blurb button {
+  margin-top: 10px;
+  background-color: #d8d2c2;
+  color: #4a4947;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.blurb button:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 3px;
+}

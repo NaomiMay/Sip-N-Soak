@@ -1,0 +1,71 @@
+.acc-container {
+  z-index: 2000;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+.accBtn {
+  background-color: #faf7f0;
+  cursor: pointer;
+  border: 3px solid #4a4947;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+}
+.accBtn:hover {
+  background-color: #d8d2c2;
+}
+.accBtn.is-active {
+  color: #faf7f0;
+}
+
+.acc-menu {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  background-color: #4a4947;
+  color: #faf7f0;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  opacity: 0;
+  transform: scaleY(0);
+}
+
+.acc-menu.is-active {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.acc-menu h4 {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.button-panel {
+  display: flex;
+  gap: 10px;
+}
+
+.button-panel button {
+  width: 80px;
+  height: 100px;
+  border-radius: 20px;
+  border: 3px solid #d8d2c2;
+  padding: 8px;
+  color: #4a4947;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button-panel button:hover {
+  background-color: #d8d2c2;
+}
+.button-panel svg {
+  padding-bottom: 15px;
+}
